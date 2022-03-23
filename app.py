@@ -38,8 +38,8 @@ def run():
     Age = st.number_input('Age', min_value=1, max_value=100, value=25)
     Sex = st.selectbox('Sex', ['male', 'female'])
     Pclass= st.number_input('P Class', 1,3)
-    SibSp=  st.multiselect('Number of Siblings And Spouse',[0,1,2,3,4,5,8])
-    Parch= st.multiselect('Parch',[0,1,2,3,4,5,6])
+    SibSp=  st.selectbox('Number of Siblings And Spouse',[0,1,2,3,4,5,8])
+    Parch= st.selectbox('Parch',[0,1,2,3,4,5,6])
     Fare=  st.slider('Fare', 0,600)
     Embarked = st.selectbox('Embarked', ['S', 'C', 'Q'])
     
