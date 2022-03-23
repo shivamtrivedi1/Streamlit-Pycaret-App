@@ -57,7 +57,7 @@ def run():
             output = predict(model=model_rf, input_df=input_df)
             output = '$' + str(output)
             st.success('The output is {}'.format(output))
-        else:
+        elif:
             output = predict(model=model_lg, input_df=input_df)
             output = '$' + str(output)
             st.success('The output is {}'.format(output))
