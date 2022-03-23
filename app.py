@@ -58,7 +58,7 @@ def run():
             output = '$' + str(output)
             st.success('The output is {}'.format(output))
         elif classifier_name=='Logistic Regression':
-            output = predict(model=model_lg, input_df=input_df)
+            output = predict(model=model_lr, input_df=input_df)
             output = '$' + str(output)
             st.success('The output is {}'.format(output))
             
